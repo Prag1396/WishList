@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBA7C85B1F21661D00CB3A1F /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA7C85A1F21661D00CB3A1F /* MaterialView.swift */; };
+		DBA7C85D1F21682F00CB3A1F /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA7C85C1F21682F00CB3A1F /* ItemCell.swift */; };
+		DBA7C8601F21848600CB3A1F /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA7C85F1F21848600CB3A1F /* ItemDetailsViewController.swift */; };
+		DBA7C8621F2187CF00CB3A1F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA7C8611F2187CF00CB3A1F /* CustomTextField.swift */; };
 		DBCD600E1F214A2B00EF3506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCD600D1F214A2B00EF3506 /* AppDelegate.swift */; };
 		DBCD60101F214A2B00EF3506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCD600F1F214A2B00EF3506 /* ViewController.swift */; };
 		DBCD60131F214A2B00EF3506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCD60111F214A2B00EF3506 /* Main.storyboard */; };
 		DBCD60161F214A2B00EF3506 /* WishList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBCD60141F214A2B00EF3506 /* WishList.xcdatamodeld */; };
 		DBCD60181F214A2B00EF3506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCD60171F214A2B00EF3506 /* Assets.xcassets */; };
 		DBCD601B1F214A2B00EF3506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCD60191F214A2B00EF3506 /* LaunchScreen.storyboard */; };
+		DBCD602A1F2151BE00EF3506 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCD60221F2151BE00EF3506 /* Image+CoreDataClass.swift */; };
+		DBCD602B1F2151BE00EF3506 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCD60231F2151BE00EF3506 /* Image+CoreDataProperties.swift */; };
+		DBCD602C1F2151BE00EF3506 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCD60241F2151BE00EF3506 /* Store+CoreDataClass.swift */; };
+		DBCD602D1F2151BE00EF3506 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCD60251F2151BE00EF3506 /* Store+CoreDataProperties.swift */; };
+		DBCD602E1F2151BE00EF3506 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCD60261F2151BE00EF3506 /* Item+CoreDataClass.swift */; };
+		DBCD602F1F2151BE00EF3506 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCD60271F2151BE00EF3506 /* Item+CoreDataProperties.swift */; };
+		DBCD60301F2151BE00EF3506 /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCD60281F2151BE00EF3506 /* ItemType+CoreDataClass.swift */; };
+		DBCD60311F2151BE00EF3506 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCD60291F2151BE00EF3506 /* ItemType+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DBA7C85A1F21661D00CB3A1F /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		DBA7C85C1F21682F00CB3A1F /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		DBA7C85F1F21848600CB3A1F /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		DBA7C8611F2187CF00CB3A1F /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		DBCD600A1F214A2B00EF3506 /* WishList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCD600D1F214A2B00EF3506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBCD600F1F214A2B00EF3506 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +40,14 @@
 		DBCD60171F214A2B00EF3506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBCD601A1F214A2B00EF3506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBCD601C1F214A2B00EF3506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBCD60221F2151BE00EF3506 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DBCD60231F2151BE00EF3506 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DBCD60241F2151BE00EF3506 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DBCD60251F2151BE00EF3506 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DBCD60261F2151BE00EF3506 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DBCD60271F2151BE00EF3506 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DBCD60281F2151BE00EF3506 /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DBCD60291F2151BE00EF3506 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DBA7C8591F2165FD00CB3A1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBA7C8611F2187CF00CB3A1F /* CustomTextField.swift */,
+				DBA7C85A1F21661D00CB3A1F /* MaterialView.swift */,
+				DBA7C85C1F21682F00CB3A1F /* ItemCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DBA7C85E1F21844700CB3A1F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DBCD600F1F214A2B00EF3506 /* ViewController.swift */,
+				DBA7C85F1F21848600CB3A1F /* ItemDetailsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		DBCD60011F214A2B00EF3506 = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +99,11 @@
 		DBCD600C1F214A2B00EF3506 /* WishList */ = {
 			isa = PBXGroup;
 			children = (
+				DBA7C85E1F21844700CB3A1F /* Controllers */,
+				DBA7C8591F2165FD00CB3A1F /* Views */,
+				DBCD60331F2151D800EF3506 /* Generated */,
+				DBCD60321F2151CF00EF3506 /* Model */,
 				DBCD600D1F214A2B00EF3506 /* AppDelegate.swift */,
-				DBCD600F1F214A2B00EF3506 /* ViewController.swift */,
 				DBCD60111F214A2B00EF3506 /* Main.storyboard */,
 				DBCD60171F214A2B00EF3506 /* Assets.xcassets */,
 				DBCD60191F214A2B00EF3506 /* LaunchScreen.storyboard */,
@@ -65,6 +111,28 @@
 				DBCD60141F214A2B00EF3506 /* WishList.xcdatamodeld */,
 			);
 			path = WishList;
+			sourceTree = "<group>";
+		};
+		DBCD60321F2151CF00EF3506 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBCD60221F2151BE00EF3506 /* Image+CoreDataClass.swift */,
+				DBCD60241F2151BE00EF3506 /* Store+CoreDataClass.swift */,
+				DBCD60261F2151BE00EF3506 /* Item+CoreDataClass.swift */,
+				DBCD60281F2151BE00EF3506 /* ItemType+CoreDataClass.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DBCD60331F2151D800EF3506 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				DBCD60271F2151BE00EF3506 /* Item+CoreDataProperties.swift */,
+				DBCD60251F2151BE00EF3506 /* Store+CoreDataProperties.swift */,
+				DBCD60231F2151BE00EF3506 /* Image+CoreDataProperties.swift */,
+				DBCD60291F2151BE00EF3506 /* ItemType+CoreDataProperties.swift */,
+			);
+			name = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +208,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA7C85D1F21682F00CB3A1F /* ItemCell.swift in Sources */,
 				DBCD60101F214A2B00EF3506 /* ViewController.swift in Sources */,
+				DBCD602C1F2151BE00EF3506 /* Store+CoreDataClass.swift in Sources */,
+				DBCD60301F2151BE00EF3506 /* ItemType+CoreDataClass.swift in Sources */,
+				DBA7C85B1F21661D00CB3A1F /* MaterialView.swift in Sources */,
+				DBCD602B1F2151BE00EF3506 /* Image+CoreDataProperties.swift in Sources */,
 				DBCD600E1F214A2B00EF3506 /* AppDelegate.swift in Sources */,
+				DBCD602D1F2151BE00EF3506 /* Store+CoreDataProperties.swift in Sources */,
 				DBCD60161F214A2B00EF3506 /* WishList.xcdatamodeld in Sources */,
+				DBCD60311F2151BE00EF3506 /* ItemType+CoreDataProperties.swift in Sources */,
+				DBCD602F1F2151BE00EF3506 /* Item+CoreDataProperties.swift in Sources */,
+				DBCD602E1F2151BE00EF3506 /* Item+CoreDataClass.swift in Sources */,
+				DBA7C8601F21848600CB3A1F /* ItemDetailsViewController.swift in Sources */,
+				DBCD602A1F2151BE00EF3506 /* Image+CoreDataClass.swift in Sources */,
+				DBA7C8621F2187CF00CB3A1F /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +388,7 @@
 				DBCD60211F214A2B00EF3506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
