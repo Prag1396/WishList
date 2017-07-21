@@ -58,13 +58,29 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return 150
     }
     
+    
+    
     func attemptedFetch() {
         
         let fetchRequest: NSFetchRequest<Item> = Item.fetchRequest()
         let dateSort = NSSortDescriptor(key: "created", ascending: false)
-        fetchRequest.sortDescriptors = [dateSort]
+        let priceSort = NSSortDescriptor(key: "price", ascending: true)
+        let titleSort = NSSortDescriptor(key: "title", ascending: true)
+        
+        if segment.selectedSegmentIndex == 0 {
+            fetchRequest.sortDescriptors = [dateSort]
+
+        } else if segment.selectedSegmentIndex == 1 {
+            fetchRequest.sortDescriptors = [priceSort]
+        } else if segment.selectedSegmentIndex == 2 {
+            fetchRequest.sortDescriptors = [titleSort]
+        }
+        
+        
         
         let controller = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil)
+        controller.delegate = self
+        
         self.controller = controller
         
         do {
@@ -72,6 +88,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         } catch {
             let err = error as NSError
             print(err.debugDescription)
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let obj = controller.fetchedObjects, obj.count > 0 {
+            let item = obj[indexPath.row]
+            performSegue(withIdentifier: "ItemDetailsVC", sender: item)
         }
     }
     
@@ -136,6 +159,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         ad.saveContext()
     
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ItemDetailsVC" {
+            if let destination = segue.destination as? ItemDetailsViewController {
+                if let item = sender as? Item {
+                    destination.itemToEdit = item
+                }
+            }
+        }
+    }
+    
+    
+    
+    @IBAction func segmentValueChanged(_ sender: UISegmentedControl) {
+        
+        attemptedFetch()
+        tableView.reloadData()
     }
     
     
