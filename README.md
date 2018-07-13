@@ -7,3 +7,7 @@
 •	Learning Output: Core Data, NSFetchedResultsController, FetchRequests, NSPersistentContainer (iOS 10), Sorting Core Data Results
 
 •	Link: https://drive.google.com/file/d/1b0Qf9TchYPejHuSx_mcaAeZYAeVJl-PW/view
+
+![simulator screen shot - iphone se - 2018-07-12 at 17 40 55](https://user-images.githubusercontent.com/16966560/42666619-1dfaec1c-85fb-11e8-9984-6c7eab9e2e0f.png)
+![simulator screen shot - iphone se - 2018-07-12 at 17 41 01](https://user-images.githubusercontent.com/16966560/42666620-1e11b0f0-85fb-11e8-9e24-8eb93fa0ea5f.png)
+![simulator screen shot - iphone se - 2018-07-12 at 17 42 38](https://user-images.githubusercontent.com/16966560/42666621-1e3e9552-85fb-11e8-9acc-2f30d2a82c5e.png)
